@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 {
    try
    {
-      cout << "OK 2" << endl;
+      cout << "OK 3" << endl;
    }
    catch (std::exception& excpt)
    {

@@ -3,7 +3,10 @@ CXX=g++ -std=c++0x -g
 OBJ=main.o utilities.o
 
 
-run: main
+build: main
+
+test: main
+	./main
 
 main: $(OBJ)
 	$(CXX) -o $@ $(OBJ)
